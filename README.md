@@ -1,7 +1,7 @@
 # Heart Attack Prediction
 ## AI Bootcamp: Project Two
 
-### Group Members:
+### Group Members
 * Matthew Dlugosz
 * Madeline Jankowski
 * Katia Monteros
@@ -10,11 +10,23 @@
 <img src="https://www.nm.org//-/media/northwestern/healthbeat/images/medical-advances/how-artificial-intelligence-is-saving-lives-heart-failure_ft.jpg" alt="Alt Text" width="800" height="350">
 
 ### Project Overview
+**Hypothesis:**
+We predicted that the essential contributors for CVD would be the main predictors for a Heart Attack in a population and risk of Heart Attack could be predicted.
+
+Main Predictors:
+* Age
+* Smoking
+* Diabetes
+* High Blood Pressure
+* Family History of CVD
+
+**AIM:**
+Every 34 seconds, a person in the United States dies from Heart Disease. People all over the world have risk factors for Heart Disease that can lead to Heart Attacks. This project aims to train a Machine Learning Model on a Heart Attack dataset to predict the risk of Heart Attacks. 
 
 ### Dataset Overview
 The Heart Attack Prediction Dataset contains medical information of 8,763 patients and has 26 columns. It covers a range of factors that may contribute to Heart Attacks, including patient details, medical history, lifestyle factors, and socioeconomic factors. 
 
-Disclaimer: The Heart Attack Prediction Dataset is a synthetic dataset created by ChatGPT, which may introduce bias and could impact the model's accuracy scores.
+Disclaimer - The Heart Attack Prediction Dataset is a synthetic dataset created by ChatGPT, which may introduce bias and could impact the model's accuracy scores.
 
 ### Approach to Project Goals 
 **Machine Learning Models:**
