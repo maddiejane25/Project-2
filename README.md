@@ -1,4 +1,4 @@
-# Heart Attack Prediction
+# A Quest for Heart Attack Prediction
 ## AI Bootcamp: Project Two
 
 ### Group Members
@@ -10,40 +10,66 @@
 <img src="https://www.nm.org//-/media/northwestern/healthbeat/images/medical-advances/how-artificial-intelligence-is-saving-lives-heart-failure_ft.jpg" alt="Alt Text" width="800" height="350">
 
 ### Project Overview
-**Hypothesis:**
-We predicted that the essential contributors for CVD would be the main predictors for a Heart Attack in a population and risk of Heart Attack could be predicted.
+**Aim:**
+This project aims to train a machine learning model on a dataset to predict the risk of having a heart attack. 
 
-Main Predictors:
-* Age
+**Hypothesis:**
+We predicted that the studied traditional and risk-enhancing features would be the leading predictors in our machine learning model and could keening assess one’s risk for having a heart attack.
+
+Traditional Risk Factors:
+* Increasing age
 * Smoking
 * Diabetes
 * High Blood Pressure
-* Family History of CVD
-
-**AIM:**
-Every 34 seconds, a person in the United States dies from Heart Disease. People all over the world have risk factors for Heart Disease that can lead to Heart Attacks. This project aims to train a Machine Learning Model on a Heart Attack dataset to predict the risk of Heart Attacks. 
+* High Cholesterol
+* Obesity
+* Male gender
+  
+Risk Enhancing Factors:
+* Family history of early CVD
+* High risk ethnicity
+* Higher than normal tryiglycerides
 
 ### Dataset Overview
-The Heart Attack Prediction Dataset contains medical information of 8,763 patients and has 26 columns. It covers a range of factors that may contribute to Heart Attacks, including patient details, medical history, lifestyle factors, and socioeconomic factors. 
+The 'Heart Attack Risk Prediction Dataset' contains medical information of 8,763 patients and has 26 columns. It covers a range of factors that may contribute to heart attacks, including patient details, medical history, lifestyle factors, and socioeconomic factors. 
 
-Disclaimer - The Heart Attack Prediction Dataset is a synthetic dataset created by ChatGPT, which may introduce bias and could impact the model's accuracy scores.
+The target column, 'Heart Attack Risk', is a binary classification variable that indicates whether a patient is at risk for a heart attack:
+* 1 = Yes
+* 0 = No
+
+<img src="https://github.com/user-attachments/assets/a58e91f9-ee3f-47a1-a047-f596e7616a17" alt="Image description" width="400" height="300">
+
+Data Sources - The 'Heart Attack Risk Prediction Dataset' is a synthetic dataset generated using ChatGPT, which may introduce bias and could impact the model's accuracy scores.
 
 ### Approach to Project Goals 
-**Machine Learning Models:**
+This project compares the performance of various machine learning models based on the following metrics: 
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* ROC-AUC Curve
+
+The machine learning models tested in this project were:
 * Logistic Regression
 * Random Forest Classifier
 * Decision Tree Classifier
 * XG Boost
 * Gradient Boost
-* SVM
-* KNN
+* Support Vector Machine (SVM)
+* K-Nearest Neighbors (KNN)
 
 ### Results
+After testing various machine learning models and assessing their effectiveness in predicting heart attack risk, 'Logistic Regression' was determined to be the top performing model, achieving and overall model accuracy of 64.2%.
+
+* The model correctly predicted 5624 instances of Class 0 (true negatives)
+* The model correctly predicted 0 instances of Class 1
+
+This suggests the model always predicts Class 0 and fails to identify Class 1. 
 
 ### Conclusion
-
+...
 ### Future Development Plan
-
+...
 ### Instructions to Run the Code
 1. Clone the Repository
 * Open terminal on the local machine and run the following command:
