@@ -59,17 +59,19 @@ The machine learning models tested in this project were:
 * K-Nearest Neighbors (KNN)
 
 ### Results
-After testing various machine learning models and assessing their effectiveness in predicting heart attack risk, 'Logistic Regression' was determined to be the top performing model, achieving and overall model accuracy of 64.2%.
+After testing various machine learning models and assessing their effectiveness in predicting heart attack risk, 'Logistic Regression' was determined to be the top performing model, achieving and overall model accuracy of 64.6%. This model also had the most similar scores between train and test sets. 
 
-* The model correctly predicted 5624 instances of Class 0 (true negatives)
-* The model correctly predicted 0 instances of Class 1
-
-This suggests the model always predicts Class 0 and fails to identify Class 1. 
+No model performed above 65% on a test set. 
 
 ### Conclusion
-...
+In our hypothesis, we predicted that traditional and risk-enhacing features would be key predictors for our model. After working with the dataset, we see that the algorithm is constantly predicting no heart attack. When looking at individual features, we see that there is a slight correlation to heart attack risk.
+
 ### Future Development Plan
-...
+For future development, we would:
+* Use a different dataset that showcases actual patient data with included outcomes. Ideally, we would use a hospital database.
+* Predict the risk of overall cardiovascular disease rather than just heart attack.
+* Establish connections with programs like 'Program for Cardiovascular Health Metrics' at University of Washington that are focuse on areas such as: Global burden of disease, disparities in CV health outcomes, registry and outcomes science, and interventions and scenarios.
+
 ### Instructions to Run the Code
 1. Clone the Repository
 * Open terminal on the local machine and run the following command:
